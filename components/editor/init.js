@@ -1482,6 +1482,8 @@
 
             case 'replace':
 
+                 i.replace(replace);                   
+                    
                 i.find(find, {
                     backwards: false,
                     wrap: true,
@@ -1489,7 +1491,7 @@
                     wholeWord: false,
                     regExp: false
                 });
-                i.replace(replace);
+                //i.replace(replace);
 
                 break;
 
